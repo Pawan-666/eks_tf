@@ -1,0 +1,1 @@
+1. We create a vpc module, inside that vpc eks is going to be installed.
