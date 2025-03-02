@@ -40,6 +40,13 @@ Networking Integration:
 Subnet IDs provided as a variable ensure that both the EKS cluster and node groups are deployed in the correct VPC networking environment.
 
 
+### commands to connect to the cluster
 
+```
+k config view
 
+k config current-context
 
+aws eks update-kubeconfig --region us-west-2 --name my-eks-cluster
+
+```
